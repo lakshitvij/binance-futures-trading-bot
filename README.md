@@ -43,12 +43,17 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price
 - Minimum order value should be above 100 USDT  
 
 ## Project Structure
-
-bot/
-cli.py
-README.md
-requirements.txt
-
-
+binance-futures-trading-bot/
+│
+├── bot/
+│ ├── client.py
+│ ├── orders.py
+│ ├── validators.py
+│ ├── logging_config.py
+│ ├── init.py
+│
+├── cli.py
+├── README.md
+├── requirements.txt
 ## Status
 Tested with both MARKET and LIMIT orders
